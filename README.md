@@ -2,6 +2,11 @@
 - fork or clone this repo `git clone repo URL`
 - this project uses `motoko ICP language` so follow the steps provided in this `doc`
 - ICP works around `canisters` and you will be working with `canister Ids`
+- through the `CLI` use codes provided to fetch your `canister ids` and your `principal ids`
+- each and everyone are assigned a different `canister id` and `principal ids`
+- having multiple canisters , each canister has a different `canister id`
+
+---
 
 # Check your Balance
 
@@ -31,6 +36,8 @@ echo $OWNER_PUBLIC_KEY
 dfx canister call token balanceOf "( $OWNER_PUBLIC_KEY )"
 ```
 
+---
+
 # Charge the Canister
 
 
@@ -53,6 +60,8 @@ echo $CANISTER_PUBLIC_KEY
 ```
 dfx canister call token transfer "($CANISTER_PUBLIC_KEY, 500_000_000)"
 ```
+
+---
 
 # Deploy the Project to the Live IC Network
 
