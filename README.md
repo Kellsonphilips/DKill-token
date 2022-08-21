@@ -1,3 +1,8 @@
+# Getting to work or test this project
+- fork or clone this repo `git clone repo URL`
+- this project uses `motoko ICP language` so follow the steps provided in this `doc`
+- ICP works around `canisters` and you will be working with `canister Ids`
+
 # Check your Balance
 
 1. Find out your principal id:
