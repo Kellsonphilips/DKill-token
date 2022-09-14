@@ -176,7 +176,7 @@
 
 END OF TERMS AND CONDITIONS
 
-LLVM EXCEPTIONS TO THE APACHE 2.0 LICENSE
+### LLVM EXCEPTIONS TO THE APACHE 2.0 LICENSE
 
 As an exception, if, as a result of your compiling your source code, portions
 of this Software are embedded into an Object form of such source code, you may
